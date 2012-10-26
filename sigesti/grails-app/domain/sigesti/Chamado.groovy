@@ -24,7 +24,7 @@ class Chamado {
 		desc_solucao(blank:true, maxSize:1024, widget:'textArea')
 		equipamento(nullable:true)
 	}
-
+//teste
 	static mapping = {
 		id column:'id_chamado'
 		id generator:'sequence', params:[sequence:'id_chamado_sequence']
