@@ -26,7 +26,6 @@ class Chamado {
 	}
 
 	static mapping = {
-		// version false
 		id column:'id_chamado'
 		id generator:'sequence', params:[sequence:'id_chamado_sequence']
 	}
